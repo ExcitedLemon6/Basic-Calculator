@@ -5,50 +5,61 @@ float add()
 {
 	float x;
 	float y;
+	printf("First number: ");
 	scanf("%f", &x);
+	printf("Second number: ");
 	scanf("%f",  &y);
-	printf("%f\n", x+y);
+	printf("Result = %f\n", x+y);
 }
 
 float sub()
 {
 	float x;
 	float y;
+	printf("First number: ");
 	scanf("%f", &x);
+	printf("Second number: ");
 	scanf("%f",  &y);
-	printf("%f\n", x-y);
+	printf("Result = %f\n", x-y);
 }
 float mult()
 {
 	float x;
 	float y;
+	printf("First number: ");
 	scanf("%f", &x);
+	printf("Second number: ");
 	scanf("%f",  &y);
-	printf("%f\n", x*y);
+	printf("Result = %f\n", x*y);
 }
 
 float div()
 {
 	float x;
 	float y;
+	printf("First number: ");
 	scanf("%f", &x);
+	printf("Second number: ");
 	scanf("%f",  &y);
-	printf("%f\n", x/y);
+	printf("Result = %f\n", x/y);
 }
 float pw()
 {
 	float x;
 	float y;
+	printf("First number: ");
 	scanf("%f", &x);
+	printf("Second number: ");
 	scanf("%f",  &y);
-	printf("%f\n", pow(x, y));
+	printf("Result = %f\n", pow(x, y));
 }
 
 float sqr()
 {
 	float x;
+	printf("Your number is: ");
 	scanf("%f", &x);
-	printf("%f\n", sqrt(x));
+	printf("Result = %f\n", sqrt(x));
 }
 
 int main()
@@ -85,7 +96,7 @@ int main()
 			break;
 
 		default:
-			printf("You are a stupid nigga\n");
+			printf("Enter a valid operation!\n");
 			break;
 	}
 
